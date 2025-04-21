@@ -141,6 +141,15 @@ END;
 
 
 
+EXEC AddTransaction
+    @trans_id = 1013,        
+    @trans_date = '2025-04-21',
+    @cno = 101,                
+    @trans_type = 'D',         
+    @amount = 34       
+
+
+
 -- Sample Entry with validations
 DECLARE @new_accno INT = 11;
 DECLARE @new_balance DECIMAL(10,2) = 10000;
